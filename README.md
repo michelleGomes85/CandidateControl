@@ -20,3 +20,28 @@ O projeto é composto por:
 
 - `dio.exceptions`: Contém a classe `InvalidParametersException`.
 - `dio.main`: Contém a classe principal `Accountant`, que executa o programa.
+
+### Exemplo de Execução
+
+Caso o usuário insira dois números válidos, por exemplo, 3 e 7, o programa exibirá o seguinte resultado:
+
+```sql
+Enter the first parameter:
+3
+Enter the second parameter:
+7
+Printing number 1
+Printing number 2
+Printing number 3
+Printing number 4
+```
+
+Se o segundo número for menor ou igual ao primeiro, o programa exibirá a seguinte mensagem de erro:
+
+```sql
+Enter the first parameter:
+5
+Enter the second parameter:
+2
+The second parameter must be greater than the first
+```
